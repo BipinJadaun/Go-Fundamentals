@@ -2,13 +2,14 @@ package main
 
 import (
 	learnings "Go-Learnings/src/learning"
+	"fmt"
 )
 
 func main() {
 
-	//fmt.Println("Hello World")
+	fmt.Println("Hello World")
 
-	//learnings.VariableExp()
+	learnings.VariableExp()
 	//learnings.ConditionalExp()
 	//learnings.SwitchExp()
 	//learnings.FunctionExp()
@@ -19,6 +20,6 @@ func main() {
 	//learnings.StructExp()
 	//learnings.MethodExp()
 	//learnings.GoroutineExp()
-	learnings.ChannelExp()
+	//learnings.ChannelExp()
 
 }
