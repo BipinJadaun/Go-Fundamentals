@@ -1,0 +1,15 @@
+
+
+*********************** Introduction *********************************
+
+
+1.  Go was designed at Google in 2007 and publicly announced in 2009.
+
+2.  Designed by Robert Griesemer, Rob Pike, and Ken Thompson.
+
+3.  Go is a statically typed, compiled programming language.
+
+4.  It's syntactically similar to C with additional features like memory management, garbage collection, and concurrency.
+
+5.  Recently added support for Generic Programming.
+

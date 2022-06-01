@@ -1,7 +1,8 @@
 package main
 
 import (
-	learnings "Go-Learnings/src/learning"
+	handler "Go-Fundamentals/src/advance/api"
+	"Go-Fundamentals/src/basics"
 	"fmt"
 )
 
@@ -9,17 +10,21 @@ func main() {
 
 	fmt.Println("Hello World")
 
-	learnings.VariableExp()
-	//learnings.ConditionalExp()
-	//learnings.SwitchExp()
-	//learnings.FunctionExp()
-	//learnings.LoopExp()
-	//learnings.ArrayExp()
-	//learnings.SliceExp()
-	//learnings.MapExp()
-	//learnings.StructExp()
-	//learnings.MethodExp()
-	//learnings.GoroutineExp()
-	//learnings.ChannelExp()
+	basics.VariableExp()
+	//basics.ConditionalExp()
+	//basics.SwitchExp()
+	//basics.FunctionExp()
+	//basics.LoopExp()
+	//basics.ArrayExp()
+	//basics.SliceExp()
+	//basics.MapExp()
+	//basics.StructExp()
+	//basics.MethodExp()
+	//basics.GoroutineExp()
+	//basics.ChannelExp()
+	//basics.SynchonizationUsingChannelExp()
+	//basics.MutexExp()
+
+	handler.HandleRequests()
 
 }
